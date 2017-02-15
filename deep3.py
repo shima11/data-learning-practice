@@ -39,6 +39,12 @@ def forward(network, x):
 	a3 = np.dot(z2, W3) + b3
 	y = identity_function(a3)
 
+	print(x)
+	print(a1)
+	print(z1)
+	print(a2)
+	print(z2)
+
 	return y
 
 network = init_network()
